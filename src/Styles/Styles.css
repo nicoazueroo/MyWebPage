@@ -1,0 +1,16 @@
+/* Reset básico para quitar el borde/blanco */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0b0d10;
+  color: #f5f5f5;
+}
+
+#root {
+  min-height: 100vh;
+  background: #0b0d10;
+}
