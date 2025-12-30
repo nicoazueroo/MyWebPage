@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import profileImg from "../assets/images/profile.png";
 import "./Home.css";
 
 export default function Home() {
@@ -8,16 +9,17 @@ export default function Home() {
     <main className="home">
       <section className="home__hero">
         <img
-          src="/profile.png"
+          src={profileImg}
           alt="Matthew Azuero"
           className="home__photo"
         />
 
         <h1>Matthew Azuero</h1>
-        <h2>Computer Science Student</h2>
+        <h2>3rd year Computer Science Student @ York University Toronto, ON</h2>
 
         <p>
-         PENE PENE ME GSUTA EL PENEE
+          Experienced programmer in full stack applications, open for any paid and unpaid oportunities 
+          where I can contribute in meaningful projects and grow alogside a team. 
         </p>
 
         <div className="home__actions">
