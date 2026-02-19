@@ -1,6 +1,7 @@
 import Card from "../components/ui/Card";
 import Button from "../components/ui/Button";
 import "./Projects.css";
+import { Outlet } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -66,7 +67,9 @@ export default function Projects() {
           ]}
           tags={["Java", "JavaFX", "MVC", "Design Patterns"]}
         />
+
       </section>
+
     </main>
   );
 }

@@ -18,15 +18,28 @@ export default function Home() {
         <h2>3rd year Computer Science Student @ York University Toronto, ON</h2>
 
         <p>
-          Experienced programmer in full stack applications, open for any paid and unpaid oportunities 
-          where I can contribute in meaningful projects and grow alogside a team. 
+          Experienced programmer in full stack applications, open for paid and unpaid
+          opportunities where I can contribute to meaningful projects and grow alongside a team.
         </p>
+
+
+        <a
+            href="/CV Matthew Version Actualizada.pdf"
+            download
+            className="home__download"
+          >
+            Download CV
+          </a>
 
         <div className="home__actions">
           <button onClick={() => navigate("/experience")}>Experience</button>
           <button onClick={() => navigate("/projects")}>Projects</button>
           <button onClick={() => navigate("/creative")}>Creative Work</button>
           <button onClick={() => navigate("/contact")}>Contact</button>
+
+
+          
+          
         </div>
       </section>
     </main>

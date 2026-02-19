@@ -5,6 +5,7 @@ import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Creative from "./pages/Creative";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/Notfound";
 
 
 
@@ -17,8 +18,11 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
+          
         <Route path="/creative" element={<Creative />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+
       </Routes>
     </>
   );
